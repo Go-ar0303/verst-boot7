@@ -1,0 +1,303 @@
+body {
+    margin: 0;
+    font-family: 'Averia Libre', cursive;
+
+}
+
+.cont {
+    margin: 0px 165px;
+}
+
+.header {
+    background: url(fon.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1080px;
+}
+
+.header_line {
+    padding-top: 35px;
+    gap: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.num {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    transition: color 0.3s linear;
+}
+
+.num:hover {
+    color: #13CDC2;
+}
+
+
+.header_down {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.header_left {
+    position: absolute;
+    margin-top: 105px;
+}
+
+.header_title {
+    font-family: 'Averia Libre', cursive;
+    font-size: 108px;
+    font-weight: 600;
+    line-height: 132px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #899c9c;
+    margin-left: 255px;
+    margin-top: 165px;
+
+
+}
+
+
+
+.header_subtitle {
+    font-family: 'Averia Libre', cursive;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #747D81;
+
+
+}
+
+.header_suptitle {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Averia Libre', cursive;
+    font-weight: 450;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 25px 0px;
+    width: 586px;
+    padding-bottom: 65px;
+
+
+
+}
+
+.header_s_title {
+    display: flex;
+    justify-content: space-between;
+    align-self: self-start;
+    gap: 30px;
+    height: 86px;
+    width: 595px;
+
+
+}
+
+.s_title {
+    font-size: 18px;
+    color: #00E0FF;
+    line-height: 25px;
+    align-self: flex-end;
+}
+
+.s_title span {
+    color: #fff;
+    line-height: 23px;
+
+
+}
+
+.line {
+    background: #00E0FF;
+    border-bottom: 2px solid #07aec4;
+    box-shadow: 0px 7px 20px 11px #00E0FF;
+    width: 100%;
+
+
+}
+
+.header_button {
+    padding: 14px 38px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    border: 1px solid;
+    border-radius: 15px;
+    background: linear-gradient(180deg, rgba(3, 225, 255, 0.66) 0%, #13CDC2 100%);
+    box-shadow: 0px 7px 20px -7px #00E0FF;
+    text-decoration: none;
+    transition: background 0.3s liner;
+
+}
+
+.header_button:hover {
+    background: #0d837b;
+}
+
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    color: #fff;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: linear-gradient(180deg, rgba(0, 224, 255, 0.11) 0%, rgba(0, 224, 255, 0.0539) 100%),
+        radial-gradient(47.54% 111.62% at 50% 50%, #49B9E8 0%, rgba(31, 77, 96, 0.43) 100%)
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #00E0FF;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #0d837b;
+}
+
+.header_mobile {
+    display: none;
+    border-radius: 5px;
+    background-color: #033958;
+    opacity: 95%;
+    padding: 20px;
+    width: 302px;
+    height: 607px;
+}
+
+.header_mobile_title {
+    font-family: Avenir Next Cyr;
+    font-size: 30px;
+    font-weight: 200;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #4ABCEC;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    width: 350px;
+
+
+
+}
+
+.header_mobile_title span {
+    color: #FFFFFF;
+
+}
+
+.header_mobile_logo {
+    display: none;
+    justify-content: center;
+}
+
+option {
+    background: #033958;
+}
+
+.cards{
+    background: linear-gradient(#0C373D, #022335);
+}
+
+.card_title {
+    font-family: Avenir Next Cyr;
+    font-size: 54px;
+    font-weight: 500;
+    line-height: 66px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4ABCEC;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    width: 850px;
+
+
+
+}
+
+.card_title span {
+    color: #FFFFFF;
+    padding-left: 5px;
+}
+
+.card_holder{
+    margin-bottom: 55px;
+}
+
+.card_holder2{
+    margin-bottom: 55px;
+}
+
+.history {
+    background: url(fon3.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1100px;
+}
+
+.history_title {
+    font-family: Avenir Next Cyr;
+    font-size: 54px;
+    font-weight: 450;
+    line-height: 66px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 35px;
+    margin-bottom: 115px;
+    color: #4ABCEC;
+    text-transform: uppercase;
+}
+
+.history_title span {
+    color:  #fff;
+}
+.history_button{
+    margin-left: 65px;
+    margin-top: 105px;
+    padding: 18px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+  
+   
+}
+
+
+.history_btn {
+    width: 160px;
+    height: 70px;
+    text-decoration: none;
+    transition: background 0.3s liner;
+    border: 1px solid;
+    border-radius: 15px;
+    color: #fff;
+    background: linear-gradient(180deg, rgba(3, 225, 255, 0.66) 0%, #13CDC2 100%);
+    box-shadow: 0px 7px 20px -7px #00E0FF;
+    
+    
+}
+
+.history_btn:hover {
+    background: #0d837b;
+}
