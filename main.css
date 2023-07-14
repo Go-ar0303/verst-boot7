@@ -5,7 +5,7 @@ body {
 }
 
 .cont {
-    margin: 0px 165px;
+    margin: 0px 265px;
 }
 
 .header {
@@ -14,6 +14,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 1080px;
+    padding-bottom: 35px;
 }
 
 .header_line {
@@ -124,6 +125,7 @@ body {
     border-bottom: 2px solid #07aec4;
     box-shadow: 0px 7px 20px 11px #00E0FF;
     width: 100%;
+    
 
 
 }
@@ -217,6 +219,7 @@ option {
 
 .cards{
     background: linear-gradient(#0C373D, #022335);
+    padding-bottom: 35px;
 }
 
 .card_title {
@@ -228,7 +231,7 @@ option {
     text-align: left;
     color: #4ABCEC;
     text-transform: uppercase;
-    margin-bottom: 25px;
+    margin-bottom: 115px;
     width: 850px;
 
 
@@ -254,6 +257,7 @@ option {
     background-repeat: no-repeat;
     background-size: cover;
     height: 1100px;
+    padding-bottom: 35px;
 }
 
 .history_title {
@@ -263,7 +267,7 @@ option {
     line-height: 66px;
     letter-spacing: 0em;
     text-align: left;
-    padding-top: 35px;
+    padding-top: 105px;
     margin-bottom: 115px;
     color: #4ABCEC;
     text-transform: uppercase;
@@ -273,20 +277,21 @@ option {
     color:  #fff;
 }
 .history_button{
-    margin-left: 65px;
     margin-top: 105px;
-    padding: 18px;
+   
     color: #fff;
     font-size: 14px;
     font-weight: 700;
+    width: 360px;
+    height: 120px;
   
    
 }
 
 
 .history_btn {
-    width: 160px;
-    height: 70px;
+    padding: 18px;
+   
     text-decoration: none;
     transition: background 0.3s liner;
     border: 1px solid;
@@ -300,4 +305,649 @@ option {
 
 .history_btn:hover {
     background: #0d837b;
+}
+
+
+
+
+
+
+@media (max-width: 1148px) {
+    .cont {
+        margin: 0px 115px;
+    }
+
+    .header_logo {
+        display: none;
+    }
+
+
+
+    .num {
+        font-size: 40px;
+        font-weight: 300;
+        border: 2px solid #2d4047;
+        width: 1050px;
+        height: 100px;
+        font-weight: 600;
+        background: #08262B80;
+        opacity: 35%;
+    }
+
+    .phone_holder {
+        margin-left: 50px;
+        margin-top: -80px;
+
+    }
+
+    .header_title {
+        margin-left: 115px;
+
+    }
+    
+
+
+
+}
+
+
+
+
+
+@media (max-width: 1040px) {
+    .cont {
+        margin: 0px 105px;
+    }
+
+    .num {
+        font-size: 40px;
+        border: 2px solid #2d4047;
+        width: 990px;
+        font-weight: 500;
+        background: #08262B80;
+        opacity: 35%;
+    }
+
+    .phone_holder {
+        margin-left: 60px;
+        margin-top: -80px;
+
+    }
+
+    .header_left {
+        display: none;
+    }
+
+    .header_title {
+        margin-left: 100px;
+
+    }
+
+
+
+}
+
+
+
+
+
+@media (max-width: 988px) {
+    .cont {
+        margin: 0px 65px;
+    }
+
+    .header {
+        height: 1800px;
+    }
+
+    .num {
+        font-size: 40px;
+        border: 2px solid #2d4047;
+        width: 850px;
+        font-weight: 400;
+        background: #08262B80;
+        opacity: 35%;
+        margin-left: 50px;
+
+    }
+
+
+    .header_left {
+        display: none;
+    }
+
+    .header_title {
+        margin-left: 85px;
+
+    }
+
+    .phone_holder {
+        margin-left: -50px;
+        margin-top: -80px;
+
+    }
+
+    .phone_img {
+        width: 50px;
+        height: 50px;
+        margin-left: 20px;
+    }
+
+    .header_mobile {
+        display: block;
+    }
+    .header_mobile_logo{
+        display: flex;
+        justify-content: center;
+    }
+
+    
+}
+
+
+
+
+
+@media (max-width: 982px) {
+    .cont {
+        margin: 0px 30px;
+    }
+
+    .num {
+        position: absolute;
+        font-size: 35px;
+        border: 2px solid #2d4047;
+        width: 800px;
+        background: #08262B80;
+        text-align: center;
+        opacity: 35%;
+        margin-top: -100px;
+
+    }
+
+
+    .header_left {
+        display: none;
+    }
+
+    .phone_holder {
+        margin-left: 90px;
+        margin-top: -40px;
+
+    }
+
+    .header_title {
+        font-size: 40px;
+        margin-left: 40px;
+    }
+
+    .header_suptitle {
+        width: 450px;
+    }
+
+    .header_s_title {
+        width: 380px;
+        display: flex;
+        justify-content: center;
+        align-self: self-start;
+        gap: 10px;
+        height: 86px;
+
+    }
+
+    .header_mobile {
+        display: block;
+        align-items: center;
+    }
+    .header_mobile_logo{
+        display: flex;
+        justify-content: center;
+    }
+    
+   
+
+
+}
+@media (max-width: 732px) {
+    .num {
+        position: absolute;
+        font-size: 30px;
+        border: 2px solid #2d4047;
+        width: 100%;
+        background: #08262B80;
+        text-align: center;
+        opacity: 35%;
+
+    }
+
+}
+
+
+
+@media (max-width: 682px) {
+
+    .num {
+        position: absolute;
+        font-size: 25px;
+        border: 2px solid #2d4047;
+        width: 70%;
+        background: #08262B80;
+        text-align: center;
+        opacity: 35%;
+
+    }
+
+
+    .header_left {
+        display: none;
+    }
+
+    .phone_holder {
+        margin-left: 90px;
+        margin-top: -40px;
+
+    }
+
+    .header_mobile {
+        display: block;
+    }
+
+    .header_mobile_logo{
+        display: flex;
+        justify-content: center;
+    }
+
+    
+
+
+}
+
+
+
+
+.info {
+    background: #022335;
+    border-bottom: 2px solid #07aec4;
+    box-shadow: 0px 7px 20px -17px #00E0FF;
+    width: 1200%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 920px;
+    display: flex;
+
+}
+
+.info_title {
+    font-family: Avenir Next Cyr;
+    font-size: 54px;
+    font-weight: 450;
+    line-height: 66px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 85px;
+    margin-bottom: 115px;
+    color: #4ABCEC;
+    text-transform: uppercase;
+
+}
+
+.info_title span {
+    color: #fff;
+}
+
+
+.info_2 {
+    background: url(Фон5.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+
+}
+
+.info_2_title {
+    font-family: Avenir Next Cyr;
+    font-size: 54px;
+    font-weight: 450;
+    line-height: 66px;
+    text-align: left;
+    padding-top: 85px;
+    margin-bottom: 65px;
+    color: #4ABCEC;
+    text-transform: uppercase;
+
+}
+
+.info_2_title span {
+    color: #fff;
+}
+
+.info_2_button{
+    margin-top: 105px;
+   
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    width: 360px;
+    height: 120px;
+  
+   
+}
+
+
+.info_2_btn {
+    padding: 18px;
+   
+    text-decoration: none;
+    transition: background 0.3s liner;
+    border: 1px solid;
+    border-radius: 15px;
+    color: #fff;
+    background: linear-gradient(180deg, rgba(3, 225, 255, 0.66) 0%, #13CDC2 100%);
+    box-shadow: 0px 7px 20px -7px #00E0FF;
+    
+    
+}
+
+.info_2_btn:hover {
+    background: #0d837b;
+}
+
+.info_3 {
+    background: #022335;
+    background-size: cover;
+    width: 100%;
+    height: 1700px;
+}
+
+.info_3_title {
+    font-family: Avenir Next Cyr;
+    font-size: 54px;
+    font-weight: 450;
+    line-height: 86px;
+    text-align: left;
+    padding-top: 85px;
+   
+    color: #4ABCEC;
+    text-transform: uppercase;
+
+}
+
+.info_3_title span {
+    color: #fff;
+}
+
+.info_3_subtitle {
+    font-family: Avenir Next Cyr;
+    font-size: 18px;
+    font-weight: 450;
+    line-height: 22px;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 75px;
+}
+
+.info_3_btn {
+    padding: 15px;
+    margin-top: 85px;
+   
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    width: 420px;
+    height: 65px;
+    text-decoration: none;
+    transition: background 0.3s liner;
+    border: 1px solid;
+    border-radius: 15px;
+    color: #fff;
+    background: linear-gradient(180deg, rgba(3, 225, 255, 0.66) 0%, #13CDC2 100%);
+    box-shadow: 0px 7px 20px -7px #00E0FF;
+    
+    
+}
+
+.info_3_btn:hover {
+    background: #0d837b;
+}
+
+
+
+.author {
+    background: url(fon6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 120%;
+    height: 900px;
+}
+
+.author_title {
+    font-family: Avenir Next Cyr;
+    font-size: 54px;
+    font-weight: 450;
+    line-height: 66px;
+    text-align: left;
+    padding-top: 85px;
+    margin-bottom: 55px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.author_subtitle {
+    width: 500px;
+    color: #fff;
+}
+
+.coments {
+    background: #022335;
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+}
+
+.coment_title {
+    font-family: Avenir Next Cyr;
+    font-size: 54px;
+    font-weight: 450;
+    line-height: 66px;
+    text-align: left;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+.coment_header {
+
+    padding-top: 85px;
+    margin-bottom: 55px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.more_coment {
+    border: 1px solid #00E0FF;
+    border-radius: 20px;
+    font-size: 12px;
+    width: 215px;
+    height: 30px;
+    text-align: center;
+    padding: 20px;
+    text-transform: none;
+    color: #fff;
+
+}
+
+.coment_cards_holder {
+    display: flex;
+    justify-content: space-between;
+}
+
+.coment_card {
+    width: 380px;
+    height: 405px;
+    color: #fff;
+    margin-left: 15px;
+}
+
+.detali,
+.coment_card_image,
+.coment_card_text,
+.coment_card_desc {
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    font-family: 'Averia Libre', cursive;
+    margin-top: 12px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.coment_card_img {
+    border: 2px solid #00E0FF;
+    border-radius: 20px;
+    height: 235px;
+}
+
+
+.jobs {
+    background: #043A41;
+    background-size: cover;
+    width: 120%;
+    height: 900px;
+}
+
+.job_title {
+    font-family: Avenir Next Cyr;
+    font-size: 54px;
+    font-weight: 450;
+    line-height: 66px;
+    text-align: left;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+.job_header {
+
+    padding-top: 85px;
+    margin-bottom: 55px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.job_s {
+    border: 1px solid #00E0FF;
+    border-radius: 20px;
+    font-size: 12px;
+    width: 215px;
+    height: 30px;
+    text-align: center;
+    padding: 20px;
+    text-transform: none;
+    color: #fff;
+
+}
+
+.job_cards_holder {
+    display: flex;
+    justify-content: space-between;
+}
+
+.job_card {
+    width: 380px;
+    height: 405px;
+    color: #fff;
+    margin-left: 15px;
+    margin-bottom: 35px;
+}
+
+.detali,
+.job_card_image,
+.job_card_text,
+.job_card_desc {
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    font-family: 'Averia Libre', cursive;
+    margin-top: 12px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.job_card_img {
+    border: 2px solid #00E0FF;
+    border-radius: 20px;
+    height: 235px;
+}
+
+
+
+.footer {
+    background: url(fon7.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 120%;
+    color: #fff;
+    text-align: center;
+
+}
+
+.footer_down {
+    align-items: center;
+    margin-top: 78px;
+
+}
+
+.footer_down::after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 621px;
+    background-color: #00E0FF;
+    margin-top: 15px;
+    margin-left: -1006px;
+
+}
+
+.footer_down::before {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 594px;
+    background-color: #00E0FF;
+    margin-top: 15px;
+    margin-left: 405px;
+
+}
+
+.footer_call {
+    position: absolute;
+    margin-top: -235px;
+
+
+}
+
+.footer_logo {
+    position: absolute;
+    margin-top: 85px;
+
+
+}
+
+.phone_holder {
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+    padding-top: 56px;
+}
+
+.soc_holder {
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+    padding-top: 16px;
+
 }
